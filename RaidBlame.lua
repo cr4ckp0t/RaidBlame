@@ -7,11 +7,4 @@ local GetNumGroupMembers = _G["GetNumGroupMembers"]
 
 SLASH_RAIDBLAME1 = "/rb"
 SLASH_RAIDBLAME2 = "/raidblame"
-SlashCmdList["RAIDBLAME"] = function(msg)
-    local blame = UnitName("player")
-    while blame == UnitName("player") do
-        local test = ("raid%d"):format(random(GetNumGroupMembers()))
-        blame = UnitName(test)
-    end
-    SendChatMessage(("blames %s."):format(blame), "emote")
-end
+SlashCmdList["RAIDBLAME"] = function(msg) SendChatMessage(("Blame randomly assigned to %s."):format(UnitName(("raid%d"):format(random(GetNumGroupMembers())))), "raid") end
