@@ -1,6 +1,6 @@
-## Interface: 90205
+## Interface: 100005
 ## Title: Raid Blame
-## Version: 1.0.3
+## Version: 1.0.4
 ## Author: Crackpot
 ## Notes: Randomly blames a raid member.
 ## X-Category: Chat
