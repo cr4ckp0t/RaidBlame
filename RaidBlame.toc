@@ -1,10 +1,11 @@
-## Interface: 110007
+## Interface: 110100
 ## Title: Raid Blame
 ## IconTexture: Interface\AddOns\RaidBlame\Media\crackpot
-## Version: 1.0.16
+## Version: 1.0.17
 ## Author: Crackpot
 ## Notes: Randomly blames a raid member.
 ## X-Category: Chat
 
 RaidBlame.lua
+
 
